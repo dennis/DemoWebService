@@ -1,0 +1,7 @@
+﻿CREATE SCHEMA `demo` DEFAULT CHARACTER SET utf8mb4 ;
+
+CREATE TABLE `demo`.`Samples` (
+  `Id` INT NOT NULL,
+  `Value` VARCHAR(45) NULL,
+  PRIMARY KEY (`Id`));
+
